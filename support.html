@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim & Destek - Ezan Vakti Global</title>
+    <meta name="description" content="Ezan Vakti Global destek ekibi ile iletişime geçin.">
+    <link rel="icon" type="image/png" href="../assets/images/favicon.png">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- Background Layer -->
+    <div class="bg-pattern"></div>
+
+    <header id="main-header">
+        <div class="container nav-flex">
+            <a href="./index.html" class="logo">EVG</a>
+            <nav>
+                <a href="./index.html" class="btn-ghost" style="padding: 0.8rem 1.5rem; font-size: 0.8rem; border: none;">ANA SAYFA</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" style="min-height: 60vh; padding-top: 8rem;">
+            <div class="container" style="text-align: center; max-width: 800px;">
+                <span class="text-eyebrow">7/24 DESTEK</span>
+                <h1 class="display-hero" style="font-size: 4rem;">Bizimle<br>İletişime Geçin</h1>
+                <p class="lead" style="margin: 0 auto;">
+                    Uygulamamızla ilgili sorularınız, önerileriniz veya yaşadığınız teknik sorunlar için aşağıdaki formu doldurabilirsiniz.
+                </p>
+            </div>
+        </section>
+
+        <section class="contact-form-section">
+            <div class="container">
+                <div class="card" style="padding: 4rem;">
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Adınız Soyadınız</label>
+                            <input type="text" id="name" name="name" class="form-control" placeholder="Örn: Ahmet Yılmaz" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email" class="form-label">E-posta Adresiniz</label>
+                            <input type="email" id="email" name="email" class="form-control" placeholder="ornek@email.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="topic" class="form-label">Konu</label>
+                            <select id="topic" name="topic" class="form-control">
+                                <option value="general">Genel Bilgi</option>
+                                <option value="support">Teknik Destek</option>
+                                <option value="feedback">Geri Bildirim / Öneri</option>
+                                <option value="business">İş Birliği</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message" class="form-label">Mesajınız</label>
+                            <textarea id="message" name="message" class="form-control" placeholder="Mesajınızı buraya yazın..." required></textarea>
+                        </div>
+
+                        <div class="form-submit">
+                            <button type="submit" class="btn btn-primary" style="width: 100%;">
+                                Gönder
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <div style="text-align: center; margin-top: 4rem; color: rgba(244, 228, 188, 0.6);">
+                    <p>Veya bize doğrudan e-posta gönderin:</p>
+                    <a href="mailto:support@ezanvakti.global" style="color: var(--gold-300); text-decoration: none; font-size: 1.2rem; margin-top: 0.5rem; display: inline-block;">support@ezanvakti.global</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="./index.html" class="logo">EVG</a>
+                    <p>Teknolojinin zirvesinde, maneviyatın kalbinde. Ezan Vakti Global, modern dünyanın ibadet asistanı.</p>
+                </div>
+                
+                <div class="footer-col">
+                    <h5>Keşfet</h5>
+                    <ul>
+                        <li><a href="./index.html">Ana Sayfa</a></li>
+                        <li><a href="https://apps.apple.com/tr/app/ezan-vakti-global/id6755699768">İndir</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h5>Yasal</h5>
+                    <ul>
+                        <li><a href="./privacy.html">Gizlilik Politikası</a></li>
+                        <li><a href="./terms.html">Kullanım Koşulları</a></li>
+                        <li><a href="./copyright.html">Telif Hakkı</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                &copy; 2025 Ezan Vakti Global. Tüm hakları saklıdır.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const header = document.getElementById('main-header');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+</html>
