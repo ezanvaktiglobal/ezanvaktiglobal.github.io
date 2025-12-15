@@ -1,6 +1,5 @@
 # Ezan Vakti Global - En Hassas Namaz Vakitleri ve Kıble Bulucu
 
-![Ezan Vakti Global Banner](https://via.placeholder.com/1200x600/080A10/D49834?text=Ezan+Vakti+Global+-+Namaz+ve+Kible)
 
 **Ezan Vakti Global**, manevi hayatınızı düzenlemenize yardımcı olan, **Diyanet** uyumlu en hassas **namaz vakitleri**, gelişmiş **Kıble pusulası** ve zengin İslami içeriği bir araya getiren kapsamlı bir mobil uygulamadır.
 
@@ -63,3 +62,4 @@ Maneviyatı cebinizde hissetmek için **Ezan Vakti Global** uygulamasını hemen
 
 &copy; 2025 **Ezan Vakti Global**. Tüm hakları saklıdır.
 *Gizlilik Politikası | Kullanım Koşulları | İletişim*
+
